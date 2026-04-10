@@ -1,0 +1,112 @@
+{
+  "$schema": "./pages.manifest.schema.json",
+  "site": {
+    "name": "Houston Sign Company",
+    "type": "website",
+    "domain": "https://95d3fee9-fe77-415f-b904-59996e897ba1.preview.builder.searchatlas.com",
+    "language": "en",
+    "defaultSeo": {
+      "titleTemplate": "%s | Houston Sign Company",
+      "ogImage": "/og-default.png"
+    }
+  },
+  "pages": [
+    {
+      "id": "home",
+      "name": "FAQ",
+      "slug": "",
+      "isHome": true,
+      "seo": {
+        "title": "Frequently Asked Questions - Houston Sign Company",
+        "description": "Browse our frequently asked questions by clicking on the question to open/close the answer. If we don't have an answer for you, please contact Houston Sign.",
+        "keywords": [
+          "Houston sign company",
+          "sign FAQ",
+          "sign questions",
+          "custom signs Houston"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "FAQPage",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "PageHero",
+        "FAQContent",
+        "Sidebar",
+        "ContactFormCTA",
+        "FooterCTA",
+        "Footer"
+      ],
+      "inNavigation": true
+    }
+  ],
+  "navigation": {
+    "header": [
+      "home"
+    ],
+    "footer": [
+      "home"
+    ]
+  },
+  "sections": {
+    "Header": {
+      "file": "src/components/sections/Header.tsx",
+      "description": "Site header with logo and navigation links",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    },
+    "PageHero": {
+      "file": "src/components/sections/PageHero.tsx",
+      "description": "Inner page hero banner with page title",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    },
+    "FAQContent": {
+      "file": "src/components/sections/FAQContent.tsx",
+      "description": "Accordion-style FAQ questions and answers",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Sidebar": {
+      "file": "src/components/sections/Sidebar.tsx",
+      "description": "Sidebar with navigation links and contact info",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    },
+    "ContactFormCTA": {
+      "file": "src/components/sections/ContactFormCTA.tsx",
+      "description": "Contact form call-to-action section",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    },
+    "FooterCTA": {
+      "file": "src/components/sections/FooterCTA.tsx",
+      "description": "Footer call-to-action strip with phone number",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Footer": {
+      "file": "src/components/sections/Footer.tsx",
+      "description": "Site footer with links, address and copyright",
+      "props": [],
+      "usedOn": [
+        "home"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://95d3fee9-fe77-415f-b904-59996e897ba1.preview.builder.searchatlas.com/sitemap.xml
